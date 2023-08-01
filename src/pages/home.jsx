@@ -1,12 +1,8 @@
-// import React from 'react'
+//.................CHANGE NEO4J URL AND PASSWORD AT LINE 31 AND 33 BEFORE EXECUTING...............
+//.................CHANGE NEO4J URL AND PASSWORD AT LINE 31 AND 33 BEFORE EXECUTING...............
+//.................CHANGE NEO4J URL AND PASSWORD AT LINE 31 AND 33 BEFORE EXECUTING...............
+//.................CHANGE NEO4J URL AND PASSWORD AT LINE 31 AND 33 BEFORE EXECUTING...............
 
-// const home = () => {
-//   return (
-//     <div>home</div>
-//   )
-// }
-
-// export default home
 
 import React, { useEffect } from "react";
 
@@ -32,9 +28,9 @@ const Neo4jDataVisualization = () => {
     const config = {
       containerId: "viz",
       neo4j: {
-        serverUrl: "neo4j://c70e63e0.databases.neo4j.io",
+        serverUrl: "<YOUR_NEO4J_URL>",
         serverUser: "neo4j",
-        serverPassword: "WSFSUjT4_inmBV4eY58XbJyUaCaZikZclQfUe3J42LE",
+        serverPassword: "<NEO4J_PASSWORD>",
         driverConfig: {
           encrypted: "ENCRYPTION_ON",
           trust: "TRUST_SYSTEM_CA_SIGNED_CERTIFICATES",
@@ -86,3 +82,4 @@ const Neo4jDataVisualization = () => {
 };
 
 export default Neo4jDataVisualization;
+
